@@ -18,6 +18,11 @@ var num = document.getElementById("n1");
 num.value = Math.sin(num.value);
 }
 
+function four_pow(){
+var num = document.getElementById("n1");
+num.value = Math.pow(num.value, 4);
+}
+
 </script>
 
 </head>
@@ -30,6 +35,7 @@ Number:
 
 <button onclick="cube()"> x^3 </button>
 <button onclick="sin()"> seno(x) </button>
+<button onclick="four_pow()"> x^4 </button>
 
 </body>
 
